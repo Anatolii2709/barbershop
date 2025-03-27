@@ -1,3 +1,178 @@
-body {
-  background-color: azure;
+@font-face {
+  font-family: 'Chutz';
+  src: url(../fonts/Chutz-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 
+
+
+/* Общий фон */
+.hero-background {
+  background: url('../img/1924.webp') no-repeat center center / cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center -30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  position: relative;
+}
+
+/* Контейнер */
+/* .container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+} */
+
+/* .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.logo-container {
+  width: 100%;
+  backdrop-filter: blur(70px);
+  background: rgba(67, 67, 67, 0.38);
+  text-align: center;
+}
+.logo {
+  font-family: 'Chutz', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  color: #ddcdb3;
+}
+
+.logo-span {
+  display: block;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  margin-top: -4px;
+  letter-spacing: 0.04em;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Навигация */
+.nav__list {
+  display: flex;
+  gap: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav__link {
+  font-size: 16px;
+  transition: opacity 0.2s ease;
+}
+
+/* .nav__link:hover {
+  opacity: 0.8;
+}  */
+
+/* Кнопка Telegram */
+/* .header__telegram-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.header__telegram-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+} */
+
+/* Hero */
+/* .hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero__content {
+  max-width: 800px;
+}
+
+.hero__title {
+  font-family: 'Chutz', cursive;
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 40px;
+} */
+
+/* Кнопки */
+/* .hero__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn--primary {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn--primary:hover {
+  background-color: #f2f2f2;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn--secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+} */
