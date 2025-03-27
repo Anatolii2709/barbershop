@@ -72,6 +72,7 @@ ul {
   font-family: 'Chutz', sans-serif;
   font-weight: 700;
   font-size: 36px;
+  letter-spacing: 0.04em;
   line-height: 1;
   color: #ddcdb3;
 }
@@ -81,7 +82,7 @@ ul {
   font-family: 'Roboto Mono', sans-serif;
   font-weight: 300;
   font-size: 36px;
-  margin-top: -4px;
+  margin-top: -11px;
   letter-spacing: 0.04em;
 }
 
