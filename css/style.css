@@ -56,10 +56,6 @@ ul {
   backdrop-filter: blur(70px);
   background: rgba(67, 67, 67, 0.38);
   margin-bottom: 13px;
-  /* position: relative; */
-  /* ///////////////////////////// */
-
-  /* ////////////////////////////// */
   text-align: center;
 }
 .logo {
@@ -110,22 +106,10 @@ ul {
   align-items: center;
   position: relative;
   margin-top: 13px;
-  /* max-width: 1200px; */
-  /* flex: 1; */
-  /* //////////////////////////////////////////// */
 }
 
 .nav-container-inner {
-  /* flex: 1;
-  display: flex;
-  justify-content: center; */
-
-  width: fit-content;
   margin: 0 auto;
-}
-
-.nav {
-  /* margin-left: 320px; */
 }
 
 /* Навигация */
@@ -146,7 +130,6 @@ ul {
   box-shadow: 0 0 25px 0 rgba(173, 173, 173, 0.2);
 }
 
-/* ///////////////////////////////////////////////// */
 .nav-actions {
   display: flex;
   align-items: center;
@@ -156,7 +139,7 @@ ul {
   top: 50%;
   transform: translateY(-50%);
 }
-/* ///////////////////////////////////////////////// */
+
 .language-switch {
   display: flex;
   gap: 4px;
@@ -205,7 +188,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: row; */
   gap: 10px;
 
   border: 1px solid #555;
@@ -235,8 +217,6 @@ ul {
 .hero {
   flex: 1;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   text-align: center;
   margin-top: 245px;
   margin-bottom: auto;
