@@ -360,6 +360,74 @@
     font-size: 12px;
     line-height: 1.66667;
   }
+
+  /* ////////////////booking/////////////// */
+
+  .booking {
+    background: url('../img/booking-tablet.webp') no-repeat center center /
+      cover;
+    padding-bottom: 129px;
+  }
+
+  .booking-container {
+    width: 768px;
+  }
+
+  .booking-title {
+    font-size: 32px;
+    line-height: 0.75;
+    margin-bottom: 20px;
+  }
+  .booking-subtitle {
+    width: 705px;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+
+  .booking-content {
+    width: 642px;
+    height: 846px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 61px 65px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .booking-form {
+    margin-bottom: 53px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .booking-contacts {
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-item {
+    width: 240px;
+    gap: 10px;
+  }
+
+  .contact-item-img-container.width {
+    width: 54px;
+    height: 43px;
+    border-radius: 50%;
+  }
+
+  .contact-item-img {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -752,7 +820,7 @@
   .reviews {
     max-width: 767px;
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 62px;
   }
   .reviews-container {
     width: 354px;
@@ -838,5 +906,95 @@
   }
   .dot-review.active {
     background: #000;
+  }
+
+  /* //////////////////////booking/////////////// */
+
+  .booking {
+    background: url('../img/booking-mobile.webp') no-repeat center center /
+      cover;
+    padding-top: 58px;
+    padding-bottom: 92px;
+  }
+
+  .booking-container {
+    width: 355px;
+  }
+
+  .booking-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.07em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .booking-subtitle {
+    width: 355px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .booking-content {
+    width: 353px;
+    height: 1012px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 44px;
+    padding-left: 20px;
+    padding-right: 21px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .booking-form {
+    width: 312px;
+    margin-bottom: 53px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 21px 12px 21px 16px;
+    margin-bottom: 37px;
+  }
+
+  .input {
+    width: 284px;
+  }
+  .textarea {
+    width: 284px;
+  }
+
+  .submit-button {
+    width: 284px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .booking-contacts {
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 32px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-item {
+    width: 240px;
+    gap: 15px;
+  }
+
+  .contact-item-img-container.width {
+    width: 54px;
+    height: 43px;
+    border-radius: 50%;
+  }
+
+  .contact-item-img {
+    width: 24px;
+    height: 24px;
   }
 }
