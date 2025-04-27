@@ -28,23 +28,6 @@ container.addEventListener('scroll', () => {
   }
 });
 
-////////////////////////////////
-
-// const scrollContainer = document.querySelector('.reviews-scroll-container');
-// const dots = document.querySelectorAll('.dot');
-
-// scrollContainer.addEventListener('scroll', () => {
-//   const scrollLeft = scrollContainer.scrollLeft;
-//   const cardWidth = scrollContainer.clientWidth;
-
-//   const index = Math.round(scrollLeft / cardWidth);
-
-//   dots.forEach(dot => dot.classList.remove('active'));
-//   if (dots[index]) {
-//     dots[index].classList.add('active');
-//   }
-// });
-
 const reviewContainer = document.querySelector('.reviews-cards');
 const reviewDots = document.querySelectorAll('.dot-review');
 
