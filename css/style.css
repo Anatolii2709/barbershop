@@ -1179,7 +1179,6 @@ ul {
 }
 
 .footer {
-  background-color: #adadad;
   padding-top: 170px;
   padding-bottom: 150px;
 }
@@ -1246,11 +1245,18 @@ ul {
 }
 
 .footer-link {
+  padding: 5px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #3d3c3c;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #000;
 }
 
 .footer-top-container {
