@@ -41,6 +41,11 @@ ul {
   margin: 0 auto;
 }
 
+/* ////////////////////////////Modal////////////////////////////// */
+.mobile-menu {
+  display: none;
+}
+
 /* Общий фон */
 .hero-background {
   background: url('../img/1924.webp') no-repeat center center / cover;
